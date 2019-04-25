@@ -12,7 +12,7 @@
 # phone:  416.577.9150
 # skype:  ronvox
 # place:  Toronto, Ontario, Canada
-# https://github.com/ronvox/ronvox-LnxEnv.git
+# https://github.com/ronvox/ronvox-LnxEnv
 # ===========================================
 # Notes for vim settings on linux environment
 #   clone the git repo in your computer, you can use any folder in your user account, example ~/Downloads directory
@@ -138,6 +138,9 @@ Install git and curl, and fontconfig:
  $ sudo apt update
  or
  $ sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoclean && sudo apt-get autoremove
+
+if you did not download my config files yet, do it now, move to Downloads folder and run this cmd:
+ $ git clone https://github.com/ronvox/ronvox-LnxEnv.git
 
 remove and reinstall VIM for Linux Environments:
   We are going to compile the latest version of vim in our system.
@@ -364,17 +367,52 @@ we can check what is installed with this cmd:
 
 step 5:------------------------------------------------------------------------
 install spf13-vim3:
- $ sudo curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+ $ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+  or if you have a bash-compatible shell run this: (yes we have it)
+ $ sh <(curl https://j.mp/spf13-vim3 -L)
 
-after that cmd I restore my .vimrc.local and others:
-copy the following files:
+we will have now a new folder in our home user account with the name
+ .spf13-vim-3
 
-finally, run this cmd:
+after that is time to restore the runcommand files, and others:
+copy the spf13 files:
+ $ cd ~/Downloads/ronvox-LnxEnv/home/spf13/
+ $ cp .vimrc* ~/.spf13-vim-3/
+  will ask you if you want to replace
+
+copy the home/account files:
+ $ cd ~/Downloads/ronvox-LnxEnv/home/
+ $ cp .vimrc* ~
+  will ask you if you want to replace
+
+copy colors for all users in vim81:
+ $ cd ~/Downloads/ronvox-LnxEnv/home/vim/colors/
+ $ sudo cp * /usr/share/vim/vim81/colors
+
+copy fonts for local user and all users:
+local user:
+ $ mkdir -p ~/.local/share/fonts/NerdFonts
+ $ cd ~/Downloads/ronvox-LnxEnv/home/NerdFonts/
+ $ cp * ~/.local/share/fonts/NerdFonts/
+
+all users:
+ $ cd ~/Downloads/ronvox-LnxEnv/usr-share-fonts-ronvox/
+ $ sudo cp * /usr/share/fonts/truetype/ronfonts
+
+finally update the fonts in the system:
+ $ sudo fc-cache -fv
+
+run this cmd to update all the changes:
  $ vim +BundleInstall! +BundleClean +q
+
+exit or quit vim, and enter again:
+ $ vim
+ $ gvim
+  or use the home button and type vim <enter>
+  select gvim
 -------------------------------------------------------------------------------
 
 done
-
 
 
 
