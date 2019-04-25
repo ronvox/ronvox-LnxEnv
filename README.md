@@ -8,7 +8,7 @@ skype:  ronvox\
 place:  Toronto, Ontario, Canada\
 https://github.com/ronvox/ronvoxLnxEnv.git </br>
 =======================================================\
-Configuration files for Linux and Windows environments.
+Configuration files for Linux and Windows environments
 
 UTF-8 encoded sample plain-text file\
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
