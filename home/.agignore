@@ -1,0 +1,13 @@
+.git/
+node_modules/
+log/
+logs/
+images/
+tmp/
+temp/
+AppData/
+Documents/
+Desktop/
+*.old
+*.bak
+*.log
