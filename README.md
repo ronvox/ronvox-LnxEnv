@@ -1,6 +1,6 @@
-####ronvoxLnxEnv repository
+#### ronvoxLnxEnv repository
 
-###Ron Estrada
+### Ron Estrada
 site:   www.ronvox.com <br>
 email:  ronoliva@gmail.com\
 phone:  416.577.9150\
