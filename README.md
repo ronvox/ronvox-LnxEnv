@@ -1,17 +1,16 @@
-#### ronvoxLnxEnv repository
+####ronvoxLnxEnv repository
 
-### Ron Estrada
+###Ron Estrada
 site:   www.ronvox.com <br>
 email:  ronoliva@gmail.com\
 phone:  416.577.9150\
 skype:  ronvox\
 place:  Toronto, Ontario, Canada\
-https://github.com/ronvox/ronvoxLnxEnv.git <br>
+github: https://github.com/ronvox <br>
 =======================================================\
 Configuration files for Linux and Windows environments
 
 ```
-
 UTF-8 encoded sample plain-text file
 0123456789
 abcdefgh - ijklmn - opqrstuvwxyz
@@ -27,5 +26,4 @@ The following characters should be displayable:
 latin-1 apostrophe and accents: '´`
 ‚deutsche‘ „Anführungszeichen“
 †, ‡, ‰, •, 3–4, —, −5/+5, ™, …  14.95 €
-
 ```
