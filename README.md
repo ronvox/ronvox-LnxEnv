@@ -1,12 +1,12 @@
-ronvoxLnxEnv repository
+#### ronvoxLnxEnv repository
 
-# Ron Estrada
-site:   www.ronvox.com </br>
+### Ron Estrada
+site:   www.ronvox.com <br>
 email:  ronoliva@gmail.com\
 phone:  416.577.9150\
 skype:  ronvox\
 place:  Toronto, Ontario, Canada\
-https://github.com/ronvox/ronvoxLnxEnv.git </br>
+https://github.com/ronvox/ronvoxLnxEnv.git <br>
 =======================================================\
 Configuration files for Linux and Windows environments
 
