@@ -13,7 +13,6 @@ Configuration files for Linux and Windows environments
 ```
 
 UTF-8 encoded sample plain-text file
-<hr>
 0123456789
 abcdefgh - ijklmn - opqrstuvwxyz
 ABCDEFGH - IJKLMN - OPQRSTUVWXYZ
@@ -23,10 +22,10 @@ ABCDEFGH - IJKLMN - OPQRSTUVWXYZ
 The following characters should be displayable:
 (  Ξ √ Λ ℂ Ω × Ψ Γ Φ ℚ ∘ ˘ ⊂ ∫ ∀ ∃ ∈ Σ ℕ ℝ ∂ Δ ∇ ∪ ∩ ℵ Π ℤ ⇐ ⇔ ⇒ ↦ Θ )
 
-‘single’ and “double” quotes </br>
-“curly apostrophes” </br>
-latin-1 apostrophe and accents: '´` </br>
-‚deutsche‘ „Anführungszeichen“ </br>
+‘single’ and “double” quotes
+“curly apostrophes”
+latin-1 apostrophe and accents: '´`
+‚deutsche‘ „Anführungszeichen“
 †, ‡, ‰, •, 3–4, —, −5/+5, ™, …  14.95 €
 
 ```
