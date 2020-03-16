@@ -2,7 +2,7 @@
 
 ### Ron Estrada
 site:   www.ronvox.com <br>
-email:  ronoliva@gmail.com\
+email:  restrada@mail.com\
 phone:  416.577.9150\
 skype:  ronvox\
 place:  Toronto, Ontario, Canada\
